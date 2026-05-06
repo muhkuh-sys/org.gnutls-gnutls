@@ -3,6 +3,7 @@ import glob
 import hashlib
 import string
 
+
 tParser = argparse.ArgumentParser(
     description='Generate a hash file for jonchki.'
 )
@@ -64,6 +65,7 @@ SHA384:${SHA384}
 SHA512:${SHA512}
 """)
 strHash = tTemplate.safe_substitute(atReplace)
+
 tFile = open(strOutputPath, 'wt')
 tFile.write(strHash)
 tFile.close()
