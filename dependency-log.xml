@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependency-log>
+	<dependencies>
+		<dependency group="net.zlib" module="zlib" artifact="zlib" version="1.3.2.1"/>
+		<dependency group="org.gmplib" module="gmp" artifact="gmp" version="6.3.0.1"/>
+		<dependency group="org.gnutls" module="gnutls" artifact="gnutls" version="3.7.11.1"/>
+		<dependency group="se.lui.lysator.nisse" module="nettle" artifact="libnettle" version="3.10.2.1"/>
+	</dependencies>
+	<build-dependencies>
+	</build-dependencies>
+</dependency-log>
